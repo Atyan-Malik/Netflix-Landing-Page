@@ -8,7 +8,7 @@ export default function NetflixCloneLanding(_: Props){
 
   return (
     <div className="min-h-screen bg-black text-white font-sans">
-      {/* NAV */}
+      
       <header className="fixed w-full top-0 left-0 z-40 bg-black/80 border-b border-red-600">
         <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
           <div className="flex items-center gap-6">
@@ -26,7 +26,7 @@ export default function NetflixCloneLanding(_: Props){
         </div>
       </header>
 
-      {/* HERO */}
+      
       <main className="pt-24">
         <section className="relative overflow-hidden">
           {/* Background image/video overlay */}
@@ -71,11 +71,11 @@ export default function NetflixCloneLanding(_: Props){
             </div>
           </div>
 
-          {/* Decorative gradient */}
+        
           <div className="absolute inset-x-0 bottom-0 h-48 bg-gradient-to-t from-black/95 to-transparent pointer-events-none" />
         </section>
 
-        {/* FEATURES */}
+        
         <section className="max-w-6xl mx-auto px-6 py-20">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-10 items-center">
             <Feature
@@ -96,7 +96,7 @@ export default function NetflixCloneLanding(_: Props){
           </div>
         </section>
 
-        {/* FAQ like CTA rows */}
+      
         <section className="border-t border-red-600/40">
           <div className="max-w-4xl mx-auto px-6 py-16 text-center">
             <h2 className="text-2xl font-bold text-red-600">Frequently asked questions</h2>
@@ -128,7 +128,7 @@ export default function NetflixCloneLanding(_: Props){
           </div>
         </section>
 
-        {/* FOOTER */}
+      
         <footer className="max-w-6xl mx-auto px-6 py-12 text-gray-400 border-t border-red-600/40">
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
             <div>
@@ -159,7 +159,7 @@ export default function NetflixCloneLanding(_: Props){
         </footer>
       </main>
 
-      {/* SIGN IN MODAL */}
+     
       {showSignIn && (
         <div className="fixed inset-0 z-50 flex items-center justify-center">
           <div className="absolute inset-0 bg-black/70" onClick={() => setShowSignIn(false)} />
